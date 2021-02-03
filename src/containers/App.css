@@ -1,0 +1,85 @@
+*{
+    font-family: Arial;
+
+}
+
+.todo-app {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 100%;
+    min-height: 100%;
+    text-align: center;
+    margin: 128px auto;
+    border-radius: 10px;
+    padding-bottom: 32px;
+    
+}
+.todo-input {
+    padding: 10px 19px 10px 11px;
+    border-radius: 4px 0 0 4px;
+    border: 1px solid mediumseagreen;
+    outline: none;
+    width: 40%;
+}
+.todo-button {
+    padding: 10px;
+    border: 1px solid mediumseagreen;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+    color: mediumseagreen;
+}
+.todo-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4px auto;
+
+    font-size: 20px;
+
+    padding: 16px;
+    border-radius: 5px;
+    width: 45.5%;
+}
+.clear-button{
+    padding: 10px;
+    margin: 30px;
+    border: 1px solid mediumseagreen;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+    text-transform: capitalize;
+    color: mediumseagreen;
+}
+.search-input{
+    margin:0px 0px 0 36.4%;
+    padding: 5px 10px 5px 6px;
+    position:relative; right:5px; bottom:50px;
+    border: 1px solid mediumseagreen;
+    border-radius: 4px;
+    outline: none;
+    text-transform: capitalize;
+    color: mediumseagreen;
+
+}
+.icons{
+    display: flex;
+    justify-content: space-between;
+}
+.star-icon{
+    color:yellow;
+}
+.complete{
+    opacity: 0.5;
+}
+.check-icon{
+    color:green;
+}
+.edit-icon{
+    color:blue;
+}
+.delete-icon{
+    color:red;
+}
