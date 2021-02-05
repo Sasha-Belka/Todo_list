@@ -1,8 +1,8 @@
 import React,{useState} from 'react';
 import{ TodoForm } from './TodoForm';
 import{ Todo } from './Todo';
-import sortBy from 'react-lodash';
-import filter from 'react-lodash';
+import sortBy from 'lodash/sortBy';
+import filter from 'lodash/filter';
 
 
 export function TodoList(){
