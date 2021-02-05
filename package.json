@@ -8,6 +8,9 @@
     "@testing-library/user-event": "^12.6.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-icon-base": "^2.1.2",
+    "react-icons": "^4.1.0",
+    "react-lodash": "^0.1.2",
     "react-scripts": "4.0.1",
     "web-vitals": "^0.2.4"
   },
